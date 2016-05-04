@@ -1,0 +1,259 @@
+body{
+
+
+}
+
+header{
+  position:fixed;
+  top:0;
+  right:0;
+}
+
+nav {
+    text-align: right;
+    margin-right: 80px;
+
+}
+
+nav a {
+  margin: 0;
+  margin-top: 20px;
+  padding: 5px;
+
+}
+
+li{
+  display: inline-block;
+  text-decoration:underline;
+  list-style-type: none;
+
+
+}
+
+a{
+font-family: 'Shadows Into Light', cursive;
+text-decoration:none;
+font-size: 25px;
+color:white;
+}
+
+
+
+.myself{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  color:whitesmoke;
+  clear: both;
+  text-align: center;
+  padding: 200px;
+
+
+}
+
+.trust{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  color:whitesmoke;
+  text-align: center;
+
+}
+
+.tictactoe{
+  font-family: 'Shadows Into Light', cursive;
+  font-size:50px;
+  text-align:center;
+  color:whitesmoke;
+  text-decoration: underline;
+
+
+
+
+}
+
+.button{
+  text-align:center;
+  font-size:100px;
+  height:200px;
+  width:200px;
+  vertical-align:middle;
+  margin: 5px;
+  border: 25px;
+
+
+
+
+
+}
+
+.button:hover{
+  background-color: whitesmoke;
+}
+
+li:hover{
+  background-color: dodgerblue;
+  transition:background-color 1s;
+}
+
+
+
+#about{
+  background:url("basketball2.jpg");
+  background-size: cover;
+  height:1500px;
+
+}
+
+
+
+#Bored{
+  height:1150px;
+  background-color: grey;
+  text-align:center;
+}
+
+.player1{
+  font-family: 'Shadows Into Light', cursive;
+  font-size:50px;
+  text-align:left;
+  color:whitesmoke;
+  padding: 50px;
+
+
+
+
+}
+
+.player2{
+  font-family: 'Shadows Into Light', cursive;
+  font-size:50px;
+  text-align:left;
+  color:whitesmoke;
+  padding: 50px;
+
+
+}
+#Contact{
+  height:500px;
+  background-color: black;
+
+}
+
+img{
+  height:100px;
+  width: 100px;
+  display: block;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue{
+  background-color:  #3333CC;
+  transition: background-color 1s;
+
+}
+
+.red{
+  background-color:  #990033;
+  transition: background-color 1s;
+
+}
+
+.where{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 50px;
+  color:whitesmoke;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+.demo{
+  font-size:20px;
+  margin: 30px;
+}
+
+.0{
+  background-color:black;
+}
+
+@media screen and (max-width:1080px) and (min-width: 980px){
+	nav{
+
+		font-size: 18px;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+	#page-header nav li{
+		float: none;
+	}
+	#page-header nav li:first-child{
+		display:block;
+		position: absolute;
+		top:.25em;
+		right:.5em;
+
+	}
+	ul{
+		height:0;
+		transition:height 1s;
+		overflow: hidden;
+
+	}
+
+
+
+	.button{
+		width: 1em;
+    height: 1em;
+
+
+
+
+}
+
+nav{
+  padding:1em;
+
+
+
+
+
+}
+
+
+
+
+
+ .demo{
+	 width: 50%;
+   font-size:50%;
+
+
+
+
+ }
+
+
+.tagline{
+	display: none;
+}
+
+#page-header nav li:first-child{
+	top: 1em;
+  clear: none;
+}
+
+#page-header a{
+	font-size: 25px;
+}
+
+}
+
+
+.slideDown{
+	height:20em;
+}

@@ -89,13 +89,51 @@ $(function(){
   $('.button').click(colorSwitch)
 
 
- function popUp(){
-   alert('This is just a trail version! You must purchase the complete version for $9.99 at "WWW.EA.COM" to have access to all features!')
+
+
+ var count = 0;
+ function updateCount() {
+
+ 	// Log the current count
+ 	console.log(count);
+
+ 	// Count the number of items
+ 	count= count +1;
+ 	console.log(count);
+
+ 	// Print the new count
+ 	$('#count').html(count);
+
+ }
+
+ var countt = 0;
+ function updateCount2() {
+
+  // Log the current count
+  console.log(countt);
+
+  // Count the number of items
+  countt= countt +1;
+  console.log(countt);
+
+  // Print the new count
+  $('#count2').html(countt);
+
  }
 
 
 
-  $('.demo').click(popUp)
+
+
+
+
+ $('.demo1').click(updateCount);
+ $('.demo2').click(updateCount2);
+
+ function purchase(){
+   alert('This is just a trail version! You must purchase the complete version for $9.99 at "WWW.EA.COM" to have access to all features!')
+ }
+  $('.demo').click(purchase);
 
 
 
